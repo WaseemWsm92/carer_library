@@ -1,0 +1,89 @@
+.availability-modal-wrapper {
+  .availability-modal-content {
+    .availability-date {
+      padding-top: 30px;
+    }
+
+    .availability-modal-btn {
+      padding-top: 30px;
+      gap: 10px;
+
+      .cancel-btn {
+        padding: 10px 25px;
+        border: none !important;
+        border-radius: 2px;
+        background: #4e132c;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+        border-radius: 2px;
+      }
+
+      .save-btn {
+        padding: 10px 25px;
+        border: none !important;
+        border-radius: 2px;
+        background: #65cdf0;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+        border-radius: 2px;
+      }
+    }
+
+    .weather-update-wrapper {
+      .Long-day {
+        width: 100%;
+        max-width: 50px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #d9d9d9;
+        background-image: url("../../../../../../../assets/images/staffManager/sunBlack.png");
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+      }
+      .long-day-active {
+        background-image: url("../../../../../../../assets/images/staffManager/sunshine.png");
+      }
+      .am-active {
+        background-color: #e6b15d;
+      }
+      .pm-active {
+        background-color: #F89A0C;
+      }
+      .morning-update {
+        width: 100%;
+        max-width: 50px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #d9d9d9;
+        color: #eff0f7;
+      }
+
+      .afternoon-update {
+        width: 100%;
+        max-width: 50px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #d9d9d9;
+        color: #eff0f7;
+      }
+
+      .night {
+        width: 100%;
+        max-width: 50px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #d9d9d9;
+        background-image: url("../../../../../../../assets/images/staffManager/moon.png");
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+      }
+
+      // .moon-color{
+      //     background-image: url(../../../../../../assets/images/moonColor.png);
+
+      // }
+      // .sun-color{
+      //     background-image: url(../../../../../../assets/images/sunColor.png);
+
+      // }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../../sass/variables.scss';
+
+.client-upcoming-shift-wrapper {
+    border-radius: 10px;
+    padding: 30px 30px;
+
+    @media screen and (max-width: 800px) {
+        padding: 20px 20px;
+    }
+    @media screen and (max-width: 600px) {
+        padding: 20px 10px;
+    }
+    .upcoming-shift-wrapper {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 15px 15px;
+        .shift-img {
+            gap: 15px;
+        }
+        .upcoming-content-wrap {
+            padding-top: 15px;
+            gap: 18px;
+        }
+        .upcoming-btn {
+            padding-top: 25px;
+            button {
+                padding: 10px 20px;
+                height: 100%;
+                border: none !important;
+                box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+                border-radius: 2px;
+                background-color: #4E132C;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.staff-rate-accordian {
+  width: 100%;
+  overflow-x: scroll;
+  .staff-select {
+    .ant-select-selector {
+      width: 268px;
+      display: flex;
+      align-items: center;
+      border-radius: 0;
+      height: 47px;
+    }
+  }
+  .staffName {
+    height: 60%;
+    .ant-select-selector {
+      height: 100% !important;
+    }
+  }
+}

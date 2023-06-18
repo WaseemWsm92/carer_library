@@ -1,0 +1,78 @@
+.view-details-main-wrapper {
+  .inner-flex-wrapper {
+    background: #ffffff;
+    box-shadow: 0px 12px 23px rgba(62, 73, 84, 0.04);
+    border-radius: 8px;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper-filters-btns {
+    background: #ffffff;
+    box-shadow: 0px 12px 23px rgba(62, 73, 84, 0.04);
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    .inset-filters-btns {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      .filter-btn {
+        height: 46px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .import-attendees-record-btn {
+        background-color: #65cdf0;
+        width: 274px;
+      }
+      .download-tempalte-btn {
+        background-color: #f7b923;
+        width: 234px;
+      }
+      .send-certificate-btn {
+        background-color: #1890ff;
+        width: 201px;
+      }
+    }
+  }
+
+
+  @media (max-width: 600px){
+    .inner-flex-wrapper{
+      height: fit-content !important;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .import-attendees-record-btn, .download-tempalte-btn,  .send-certificate-btn {
+      width: 100% !important;
+    }
+  }
+
+  @media (max-width: 400px){
+    .import-attendees-record-btn, .download-tempalte-btn,  .send-certificate-btn {
+      width: 100% !important;
+      font-size: 11px !important;
+    }
+  }
+
+}
+
+.upload-wth-progress-wrapper{
+  .inner-upload-wrapper{
+    margin-top: 40px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+  }
+}

@@ -1,0 +1,136 @@
+@import "../../../sass/variables";
+
+.staff-availability-sheet-wrapper {
+    min-height: 95%;
+    background: $white-color;
+    border: 1px solid #D9DBE9;
+    box-shadow: $card-box-shadow;
+    border-radius: $border-radius-8;
+
+    // Removed because of global styling
+    // .staff-availability-tabs-wrapper {
+    //     .ant-tabs-tab {
+    //         margin: 0 !important;
+    //         padding: 0 !important;
+
+    //         .ant-tabs-tab-btn {
+    //             padding: 1.25rem 1.875rem 0rem 1.875rem;
+    //             color: #19456A;
+    //             font-size: $fs-14 !important;
+    //             font-weight: $fw-400 !important;
+    //         }
+    //     }
+
+    //     // Tab underground bar and padding
+    //     .ant-tabs-nav-list {
+    //         gap: 1.875rem;
+    //         padding: 0 0 0.65rem 0;
+    //         margin: 0;
+
+
+    //     }
+
+
+    //     .ant-tabs-ink-bar {
+    //         height: 3px !important;
+    //         border-radius: 45px;
+    //         background: #65CDF0;
+    //     }
+    // }
+
+    // ########## Availability Sheet Style Starts Here ##########
+    .staff-availability-sheet-table {
+        .ant-table {
+            border: 1px solid #D9DBE9;
+            padding: 0.75rem;
+            border-radius: 10px !important;
+
+            .ant-table-thead {
+                tr {
+                    height: 65px;
+
+                    .ant-table-cell {
+                        background: none !important;
+                        font-weight: 600 !important;
+                        font-size: 14px !important;
+                        line-height: 17px !important;
+                        color: #4E4B66 !important;
+
+                        // border-bottom: 1px solid #D9DBE9 !important;
+                        &::before {
+                            background-color: #4E4B66 !important;
+                        }
+                    }
+                }
+            }
+
+            .ant-table-tbody {
+                tr {
+                    height: 71px;
+                    border-bottom: 1px solid #D9DBE9;
+
+                    .ant-table-cell {
+                        padding: 10px 16px !important;
+                    }
+
+                    &:last-child {
+                        border-bottom: none !important;
+
+                        td {
+                            border-bottom: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .update-availabilty-wrapper {
+        .day-update {
+            width: 100%;
+            max-height: 33px;
+            height: 33px;
+            background-color: #d9d9d9;
+            background-image: url('../../../assets/images/staffManager/sunBlack.png');
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            background-color: #f1f1f1;
+        }
+
+        .am-update {
+            width: 100%;
+            max-height: 33px;
+            height: 33px;
+            background-color: #d9d9d9;
+            color: #eff0f7;
+        }
+
+        .pm-update {
+            width: 100%;
+            max-height: 33px;
+            height: 33px;
+            background-color: #d9d9d9;
+            color: #eff0f7;
+        }
+
+        .moon-update {
+            width: 100%;
+            max-height: 33px;
+            height: 33px;
+            background-color: #d9d9d9;
+            background-image: url('../../../assets/images/staffManager/moon.png');
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .moon-color {
+            background-image: url('../../../assets/images/staffManager/moonColor.png');
+        }
+
+        .sun-color {
+            background-image: url('../../../assets/images/staffManager/sunshine.png');
+        }
+    }
+
+    // ########## Availability Sheet Style Ends Here ##########
+}

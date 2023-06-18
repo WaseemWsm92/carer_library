@@ -1,0 +1,57 @@
+// commoms scss start
+.chat-margin {
+  margin: 20px 0px;
+}
+.chat-padding {
+  padding: 15px;
+}
+.gap {
+  gap: 15px;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.wrap-support-dashboard {
+  .wrap-chat {
+    background-color: #f9f9fb;
+    padding: 1px 30px;
+  }
+  .wrap-profile-image {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .document-file-type {
+    .document-icon {
+      font-size: 10rem;
+      &:hover {
+        color: #65cdf0;
+      }
+      @media only screen and (max-width: 600px) {
+        font-size: 5rem;
+      }
+    }
+  }
+  .chat-name {
+    margin-bottom: 20px;
+  }
+  .chat-user-type {
+    margin-bottom: 20px;
+  }
+  .chat-email {
+    margin-bottom: 20px;
+  }
+  .chat-images {
+    margin: 20px 0px;
+  }
+  .documents-img {
+    margin-right: 20px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;
+    background-color: #65cdf0;
+  }
+  .wrap-chat-document {
+    margin: 20px 0px 30px 0px;
+  }
+}
